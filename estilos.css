@@ -1,0 +1,43 @@
+
+
+*{
+    font-family: 'rajdhani';
+     margin: 0;
+  }
+
+  #principal h2{
+    color: beige;
+    text-align: center;
+    font-family: 'rajdhani';
+    }
+
+  #principal{
+      
+      
+      
+  }
+
+
+
+  .h1{
+    color: beige;
+    text-align: center;
+    font-family: 'rajdhani';
+    margin: 0;
+    
+    
+    
+    
+
+  }
+
+#particles-js{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+
