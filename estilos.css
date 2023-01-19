@@ -11,12 +11,111 @@
     font-family: 'rajdhani';
     }
 
-  #principal{
-      
-      
-      
-  }
+  #buttons{
+    display: flex;
+    flex-direction: inherit;
+    width: fit-content;
+    justify-content: space-between;
+    
+      }
+  #buttons h3{
+    width: 120px;
+    font-size: 36px;
+    transition: 0.5s;
+    background-color: black;
+    color: rgb(110, 243, 144);
+    text-align: center;
+  }    
 
+  #buttons .html{
+    width: 120px;
+    font-size: 36px;
+    transition: 0.5s;
+    background-color: black;
+    color: rgb(110, 243, 144) ;
+   }
+   #buttons .css{
+    width: 120px;
+    font-size: 36px;
+    transition: 0.5s;
+    background-color: black;
+    color: rgb(110, 243, 144)
+   }
+   #buttons .js{
+    width: 120px;
+    font-size: 36px;
+    transition: 0.5s;
+    background-color: black;
+    color: rgb(110, 243, 144)
+   }
+   #buttons .react{
+    width: 120px;
+    font-size: 36px;
+    transition: 0.5s;
+    background-color: black;
+    color: rgb(110, 243, 144)
+   }
+   #buttons .node{
+    width: 120px;
+    font-size: 36px;
+    transition: 0.5s;
+    background-color: black;
+    color: rgb(110, 243, 144)
+   }
+
+   #buttons .html:hover{
+    background-color: rgb(110, 243, 144);
+    color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 200px;
+    box-shadow: 0 0 10px rgb(110, 243, 144), 0 0 40px rgb(110, 243, 144), 0 0 80px rgb(110, 243, 144);
+    border: none;
+    z-index: 2;
+   }
+   #buttons .react:hover{
+    background-color: rgb(110, 243, 144);
+    color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 200px;
+    box-shadow: 0 0 10px rgb(110, 243, 144), 0 0 40px rgb(110, 243, 144), 0 0 80px rgb(110, 243, 144);
+    border: none;
+    z-index: 2;
+   }
+   #buttons .css:hover{
+    background-color: rgb(110, 243, 144);
+    color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 200px;
+    box-shadow: 0 0 10px rgb(110, 243, 144), 0 0 40px rgb(110, 243, 144), 0 0 80px rgb(110, 243, 144);
+    border: none;
+    z-index: 2;
+    
+   }
+   #buttons .js:hover{
+    background-color: rgb(110, 243, 144);
+    color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 200px;
+    box-shadow: 0 0 10px rgb(110, 243, 144), 0 0 40px rgb(110, 243, 144), 0 0 80px rgb(110, 243, 144);
+    border: none;
+    z-index: 2;
+   }
+   #buttons .node:hover{
+    background-color: rgb(110, 243, 144);
+    color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 200px;
+    box-shadow: 0 0 10px rgb(110, 243, 144), 0 0 40px rgb(110, 243, 144), 0 0 80px rgb(110, 243, 144);
+    border: none;
+    z-index: 2;
+   }
+
+  
 
 
   .h1{
