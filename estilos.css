@@ -3,21 +3,28 @@
 *{
     font-family: 'rajdhani';
      margin: 0;
+     height: fit-content;
+     width: fit-content;
   }
 
   #principal h2{
     color: beige;
     text-align: center;
+    align-items: center;
     font-family: 'rajdhani';
+    width: fit-content;
+    height: fit-content;
+    
     }
 
   #buttons{
-    display: flex;
-    flex-direction: inherit;
-    width: fit-content;
-    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
     
-      }
+  
+    
+     }
+
   #buttons h3{
     width: 120px;
     font-size: 36px;
@@ -25,43 +32,59 @@
     background-color: black;
     color: rgb(110, 243, 144);
     text-align: center;
+    position: fixed;
   }    
 
-  #buttons .html{
-    width: 120px;
-    font-size: 36px;
-    transition: 0.5s;
+  #principal  .html{
+    width: 60px;
+    font-size: 16px;
+    transition: 0.9s;
     background-color: rgba(0, 0, 0, 0);
     color: rgb(110, 243, 144) ;
     border: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    
    }
-   #buttons .css{
-    width: 120px;
-    font-size: 36px;
-    transition: 0.5s;
-    background-color: black;
-    color: rgb(110, 243, 144)
+   #principal  .css{
+    width: 60px;
+    font-size: 16px;
+    transition: 0.9s;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(110, 243, 144) ;
+    border: none;
+    margin-right: 20px;
+    margin-left: 20px;
    }
    #buttons .js{
-    width: 120px;
-    font-size: 36px;
-    transition: 0.5s;
-    background-color: black;
-    color: rgb(110, 243, 144)
+    width: 60px;
+    font-size: 16px;
+    transition: 0.9s;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(110, 243, 144) ;
+    border: none;
+    margin-right: 20px;
+    margin-left: 20px;
    }
    #buttons .react{
-    width: 120px;
-    font-size: 36px;
-    transition: 0.5s;
-    background-color: black;
-    color: rgb(110, 243, 144)
+    width: 60px;
+    font-size: 16px;
+    transition: 0.9s;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(110, 243, 144) ;
+    border: none;
+    margin-right: 20px;
+    margin-left: 20px;
    }
    #buttons .node{
-    width: 120px;
-    font-size: 36px;
-    transition: 0.5s;
-    background-color: black;
-    color: rgb(110, 243, 144)
+    width: 60px;
+    font-size: 16px;
+    transition: 0.9s;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(110, 243, 144) ;
+    border: none;
+    margin-right: 20px;
+    margin-left: 20px;
    }
 
    #buttons .html:hover{
@@ -73,6 +96,7 @@
     box-shadow: 0 0 10px rgb(110, 243, 144), 0 0 40px rgb(110, 243, 144), 0 0 80px rgb(110, 243, 144);
     border: none;
     z-index: 2;
+    font-size: 36px;
    }
    #buttons .react:hover{
     background-color: rgba(110, 243, 143, 0.671);
@@ -83,6 +107,7 @@
     box-shadow: 0 0 10px rgb(110, 243, 144), 0 0 40px rgb(110, 243, 144), 0 0 80px rgb(110, 243, 144);
     border: none;
     z-index: 2;
+    font-size: 36px;
    }
    #buttons .css:hover{
     background-color: rgba(110, 243, 143, 0.671);
@@ -93,6 +118,7 @@
     box-shadow: 0 0 10px rgb(110, 243, 144), 0 0 40px rgb(110, 243, 144), 0 0 80px rgb(110, 243, 144);
     border: none;
     z-index: 2;
+    font-size: 36px;
     
    }
    #buttons .js:hover{
@@ -104,6 +130,7 @@
     box-shadow: 0 0 10px rgb(110, 243, 144), 0 0 40px rgb(110, 243, 144), 0 0 80px rgb(110, 243, 144);
     border: none;
     z-index: 2;
+    font-size: 36px;
    }
    #buttons .node:hover{
     background-color: rgba(110, 243, 143, 0.671);
@@ -114,6 +141,7 @@
     box-shadow: 0 0 10px rgb(110, 243, 144), 0 0 40px rgb(110, 243, 144), 0 0 80px rgb(110, 243, 144);
     border: none;
     z-index: 2;
+    font-size: 36px;
    }
 
   
@@ -139,6 +167,86 @@
     top: 0;
     z-index: -1;
 }
+
+#socialNetworks .linkedin{
+  width: 60px;
+  font-size: 16px;
+  transition: 0.9s;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(110, 243, 144) ;
+  border: none;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#socialNetworks .git{
+  width: 60px;
+  font-size: 16px;
+  transition: 0.9s;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(110, 243, 144) ;
+  border: none;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#socialNetworks .cv{
+  width: fit-content;
+  font-size: 16px;
+  transition: 0.9s;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(110, 243, 144) ;
+  border: none;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#socialNetworks{
+  justify-content: end;
+  margin-top: 90%;
+
+}
+
+#socialNetworks .cv:hover{
+  background-color: rgba(110, 243, 143, 0.671);
+  color: black;
+  border-radius: 10px;
+  transition: 0.5s;
+  box-shadow: 0 0 10px rgb(110, 243, 144), 0 0 40px rgb(110, 243, 144), 0 0 80px rgb(110, 243, 144);
+  border: none;
+  z-index: 2;
+  cursor: pointer;
+  font-weight: bold;
+  
+ }
+
+ #socialNetworks .linkedin:hover{
+  background-color: rgba(110, 243, 143, 0.671);
+  color: black;
+  border-radius: 10px;
+  transition: 0.5s;
+  box-shadow: 0 0 10px rgb(110, 243, 144), 0 0 40px rgb(110, 243, 144), 0 0 80px rgb(110, 243, 144);
+  border: none;
+  z-index: 2;
+  cursor: pointer;
+  font-weight: bold;
+  
+ }
+
+ #socialNetworks .git:hover{
+  background-color: rgba(110, 243, 143, 0.671);
+  color: black;
+  border-radius: 10px;
+  transition: 0.5s;
+  box-shadow: 0 0 10px rgb(110, 243, 144), 0 0 40px rgb(110, 243, 144), 0 0 80px rgb(110, 243, 144);
+  border: none;
+  z-index: 2;
+  cursor: pointer;
+  font-weight: bold;
+  
+ }
+
+
 
 
 
