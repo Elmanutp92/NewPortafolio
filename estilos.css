@@ -5,6 +5,7 @@
      margin: 0;
      height: fit-content;
      width: fit-content;
+     text-align: center;
   }
 
   #principal h2{
@@ -87,6 +88,17 @@
     margin-left: 20px;
    }
 
+   #buttons .game{
+    width: 60px;
+    font-size: 16px;
+    transition: 0.9s;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(110, 243, 144) ;
+    border: none;
+    margin-right: 20px;
+    margin-left: 20px;
+   }
+
    #buttons .html:hover{
     background-color: rgba(110, 243, 143, 0.671);
     color: black;
@@ -142,6 +154,19 @@
     border: none;
     z-index: 2;
     font-size: 36px;
+   }
+
+   #buttons .game:hover{
+    background-color: rgba(110, 243, 143, 0.671);
+    color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 200px;
+    box-shadow: 0 0 10px rgb(110, 243, 144), 0 0 40px rgb(110, 243, 144), 0 0 80px rgb(110, 243, 144);
+    border: none;
+    z-index: 2;
+    font-size: 36px;
+    cursor: pointer;
    }
 
   
@@ -202,8 +227,8 @@
 }
 
 #socialNetworks{
-  justify-content: end;
-  margin-top: 90%;
+ position: absolute;
+ bottom: 0;
 
 }
 
@@ -247,6 +272,10 @@
  }
 
 
+
+
+
+ /* hasta aqui hasta auqi ahahahahahhaa */
 
 
 
